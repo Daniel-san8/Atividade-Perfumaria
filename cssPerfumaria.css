@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Fraunces';
+    src: url(Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    background: hsl(30, 38%, 92%);
+}
+
+.fundo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45px;
+    margin-top: 150px;
+}
+
+
+.bloco2 {
+    display: flex;
+    width: 250px;
+    height: 370px;
+    background: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 50px;
+}
+
+
+
+.bloco2 #preço{
+    color: #3D8168;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
+.bloco2 p {
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+    color: grey;
+    font-size: 13px;
+    font-family: Montserrat;
+}
+
+.titulo {
+    padding-left: 27px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Fraunces;
+}
+
+img {
+    max-width: 250px;
+    max-height: 370px;
+    width: 250px;
+    height: 370px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-bottom: 50px;
+}
+
+
+#preçounico {
+    font-size: 14px;
+}
+
+.bloco2 button {
+    background: #3D8168;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    border: none;
+}
+
+.caixinha :hover {
+    background-color: rgb(26, 43, 26);
+    cursor: pointer;
+}
+
+
+button img {
+    width: 15px;
+    height: 15px;
+    padding-top: 53px;
+    margin-right: 20px;
+    padding-left: 30px;
+}
+
+.cart {
+    color: white;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.caixinha {
+    padding-top: 30px;
+    padding-left: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
